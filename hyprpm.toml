@@ -1,0 +1,11 @@
+[repository]
+name = "hyprland-modmove"
+authors = ["keith"]
+
+[modmove]
+description = "Move and resize floating windows by holding modifiers and moving the cursor"
+authors = ["keith"]
+output = "modmove.so"
+build = [
+  "make all",
+]

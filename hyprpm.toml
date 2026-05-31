@@ -1,6 +1,9 @@
 [repository]
 name = "hyprland-modmove"
 authors = ["keith"]
+commit_pins = [
+  ["39d7e209c79d451efab1b21151d5938289da838d", "7dfb1170861cee5e1a86dfd73cbc9dc67c718213"],
+]
 
 [modmove]
 description = "Move and resize floating windows by holding modifiers and moving the cursor"

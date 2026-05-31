@@ -18,7 +18,7 @@ There are 2 things this plugin can do:
 ```sh
 hyprpm update
 hyprpm add https://github.com/keith/hyprland-modmove
-hyprpm enable hyprbars
+hyprpm enable modmove
 hyprpm reload -n
 ```
 

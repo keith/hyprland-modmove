@@ -2,7 +2,7 @@
 name = "hyprland-modmove"
 authors = ["keith"]
 commit_pins = [
-  ["39d7e209c79d451efab1b21151d5938289da838d", "7dfb1170861cee5e1a86dfd73cbc9dc67c718213"],
+  ["39d7e209c79d451efab1b21151d5938289da838d", "f40ab8f3a98e861306d6ffdcc6c64e313a6582dd"],
 ]
 
 [modmove]

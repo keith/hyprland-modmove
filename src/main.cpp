@@ -188,8 +188,6 @@ APICALL EXPORT PLUGIN_DESCRIPTION_INFO PLUGIN_INIT(HANDLE handle) {
 
     g_mouseMoveListener = Event::bus()->m_events.input.mouse.move.listen(handleMouseMove);
 
-    HyprlandAPI::addNotification(PHANDLE, "[modmove] Hold CTRL+ALT and move the cursor to drag floating windows.", CHyprColor{0.2, 0.8, 1.0, 1.0}, 5000);
-
     return {"modmove", "Move floating windows by holding CTRL+ALT and hovering.", "ksmiley", "0.1.0"};
 }
 
